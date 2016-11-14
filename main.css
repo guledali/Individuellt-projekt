@@ -1,3 +1,5 @@
+ /* font-face */
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
  /* This is a single-line comment */
 * {
       font-family: Arial, Verdana, sans-serif;
@@ -38,7 +40,35 @@
     }
      /* feature, article */
     #feature, .article {
+      font-family:'Roboto', sans-serif;
       height: 10em;
       margin-bottom: 1em;
       background-color: #efefef;
     }
+       /* header nytt*/
+    #header{
+      background-color: rgb(49, 156, 167);
+      width: 100%;
+      padding: 50% auto 50% auto;
+    }
+
+   /* share-buttons*/
+    ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+   /* share-buttons*/
+ul.share-buttons li{
+  display: inline;
+}
+   /* share-buttons*/
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
