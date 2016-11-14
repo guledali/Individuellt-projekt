@@ -17,39 +17,64 @@
     }
      /* nav, feature and footer */
     #nav, #feature, #footer {
-      margin: 1%;
+
     }
      /* column1, column2 and column3 */
-    .column1, .column2, .column3 {
-      width: 31.3%;
+    .column {
+      width: 33.33%;
       float: left;
-      margin: 1%;
     }
-     /* column3 */
-    .column3 {
-      margin-right: 0%;}
+
+    .columncontent1{
+      margin: 0 5px 0 0;
+    }
+
+    .columncontent2{
+      margin: 0 5px 0 5px;
+    }
+
+    .columncontent3{
+      margin: 0 0 0 5px;
+    }
+
+      /* li */
     li {
       display: inline;
       padding: 0.5em;
     }
-     /* nav, footer */
-    #nav, #footer {
-      background-color: #efefef;
-      padding: 0.5em 0;
-
+     /* nav */
+    #nav{
     }
+    /* lista */
+     #nav, a{
+      text-decoration: none;
+      color: white;
+    }
+     /* footer */
+     #footer{
+     background-color: #efefef;
+     padding: 0.5em 0;
+     }
      /* feature, article */
     #feature, .article {
       font-family:'Roboto', sans-serif;
-      height: 10em;
+      min-height: 10em;
       margin-bottom: 1em;
       background-color: #efefef;
     }
+
+    /*text-aligh left in feature */
+    h2, p {
+        text-align: left;
+        margin-left: 0.5em;
+    }
+
        /* header nytt*/
     #header{
-      background-color: rgb(49, 156, 167);
-      width: 100%;
-      padding: 50% auto 50% auto;
+      background-color: rgb(110, 50, 222);
+    }
+    h1{
+      color:white;
     }
 
    /* share-buttons*/
