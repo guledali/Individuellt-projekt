@@ -2,10 +2,22 @@
   @import url('https://fonts.googleapis.com/css?family=Roboto');
  /* This is a single-line comment */
 * {
-      font-family: Arial, Verdana, sans-serif;
+      font-family: 'Roboto', sans-serif;
+      font-style: bold;
       color: #665544;
       text-align: center;
     }
+
+    /* ändra storleken i h1 Guled CV */
+    h1{
+      font-size: 2.25em;
+    }
+    /* ändra storleken i listan */
+    a{
+      font-size: 1.25em;
+    }
+
+
      /* body */
     body {
       width: 90%;
