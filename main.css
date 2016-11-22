@@ -40,10 +40,14 @@
     .column {
       width: 33.33%;
       float: left;
+
+
+
     }
 
     .columncontent1{
       margin: 0 5px 0 0;
+
     }
 
     .columncontent2{
@@ -82,9 +86,14 @@
     }
      /* footer */
      #footer{
-     background-color: #efefef;
-     padding: 0.5em 0;
+       background-color: rgb(110, 50, 222);
+       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+       padding: 0.5em 0;
      }
+     #countdown{
+       color:white;
+     }
+
      /* feature, article */
     #feature, .article {
       font-family:'Roboto', sans-serif;
@@ -127,4 +136,22 @@ ul.share-buttons .sr-only {
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+
+
+
+#columncontent1{
+  background-image: url(KYH.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#columncontent2 {
+  background-image: url(Ipsos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#columncontent2
+p{
+  color:white
 }
