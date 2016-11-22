@@ -6,6 +6,7 @@
       font-style: bold;
       color: #665544;
       text-align: center;
+
     }
 
     /* ändra storleken i h1 Guled CV */
@@ -17,6 +18,10 @@
       font-size: 1.25em;
     }
 
+     /* navlist menyn Hem cv jag att dem hamnar under h1 */
+    .menu {
+      margin: 0 40px 0 0;
+    }
 
      /* body */
     body {
@@ -54,6 +59,19 @@
       display: inline;
       padding: 0.5em;
     }
+
+    /* Skapa en hover runt listan */
+  #nav li:hover {
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 4px;
+  }
+
+  /* flytta upp listan så att hover syns */
+  ul{
+    padding-bottom: 10px;
+  }
+
      /* nav */
     #nav{
     }

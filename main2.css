@@ -1,0 +1,131 @@
+/* font-face */
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+/* This is a single-line comment */
+* {
+     font-family: 'Roboto', sans-serif;
+     font-style: bold;
+     color: #665544;
+     text-align: center;
+   }
+
+   /* ändra storleken i h1 Guled CV */
+   h1{
+     font-size: 2.25em;
+   }
+   
+   /* ändra storleken i listan */
+   a{
+     font-size: 1.25em;
+   }
+
+   /* navlist menyn Hem cv jag att dem hamnar under h1 */
+  .menu {
+    margin: 0 40px 0 0;
+  }
+
+
+
+    /* body */
+   body {
+     width: 90%;
+     margin: 0 auto;
+   }
+    /* content */
+   #content {
+     overflow: auto;
+   }
+    /* nav, feature and footer */
+   #nav, #feature, #footer {
+
+   }
+    /* column1, column2 and column3 */
+   .column {
+     width: 33.33%;
+     float: left;
+   }
+
+   .columncontent1{
+     margin: 0 5px 0 0;
+   }
+
+   .columncontent2{
+     margin: 0 5px 0 5px;
+   }
+
+   .columncontent3{
+     margin: 0 0 0 5px;
+   }
+
+     /* li */
+   li {
+     display: inline;
+     padding: 0.5em;
+   }
+
+   /* Skapa en hover runt listan */
+ #nav li:hover {
+   border: 3px solid white;
+   border-radius: 5px;
+   padding: 4px;
+ }
+
+ /* flytta upp listan så att hover syns */
+ ul{
+   padding-bottom: 10px;
+ }
+
+    /* nav */
+   #nav{
+   }
+   /* lista */
+    #nav, a{
+     text-decoration: none;
+     color: white;
+   }
+    /* footer */
+    #footer{
+    background-color: #efefef;
+    padding: 0.5em 0;
+    }
+    /* feature, article */
+   #feature, .article {
+     font-family:'Roboto', sans-serif;
+     min-height: 10em;
+     margin-bottom: 1em;
+     background-color: #efefef;
+   }
+
+   /*text-aligh left in feature */
+   h2, p {
+       text-align: left;
+       margin-left: 0.5em;
+   }
+
+      /* header nytt*/
+   #header{
+     background-color: rgb(110, 50, 222);
+   }
+   h1{
+     color:white;
+   }
+
+  /* share-buttons*/
+   ul.share-buttons{
+ list-style: none;
+ padding: 0;
+}
+  /* share-buttons*/
+ul.share-buttons li{
+ display: inline;
+}
+  /* share-buttons*/
+ul.share-buttons .sr-only {
+ position: absolute;
+ clip: rect(1px 1px 1px 1px);
+ clip: rect(1px, 1px, 1px, 1px);
+ padding: 0;
+ border: 0;
+ height: 1px;
+ width: 1px;
+ overflow: hidden;
+}
