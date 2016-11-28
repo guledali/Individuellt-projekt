@@ -8,22 +8,29 @@
     <link href="main2.css" rel="stylesheet">
 
 
+
+
+
+
   </head>
   <body>
     <div id="header">
   <h1>Guled Ali</h1>
   <div id="nav">
     <ul class="menu">
-      <li><a href="Index.html">Hem</a></li>
-      <li><a href="Index2.html">CV</a></li>
-      <li><a href="Index3.html">Jag</a></li>
+      <li><a href="index.html">Hem</a></li>
+      <li><a href="index2.html">CV</a></li>
+      <li><a href="index3.html">Jag</a></li>
     </ul>
   </div>
 </div>
+
 <div id="content">
   <div id="feature">
-  <h2>CV</h2>
-  <p style="min-height:437px;">
+
+      <h2 id="headline">CV</h2>
+
+    <p style="min-height:437px;" id="paragraph">
     Lorem ipsum dolor sit amet, mei facilisi scribentur eu, nam augue hendrerit in. Ut alia labores nam, ei tale
     libris scribentur qui, quis eius cu mel. Eam errem populo dissentiunt id, soluta meliore
     facilisi cum ne, id saepe accusata pro. Mundi postea interesset an cum,
@@ -47,7 +54,11 @@
         Mauris vitae est magna. Donec quis hendrerit eros. Etiam at vestibulum lectus. Vestibulum leo enim, tempor eu ullamcorper a, hendrerit ut velit. Quisque in neque lacus.Lorem ipsum dolor sit amet, mei facilisi scribentur eu, nam augue hendrerit in. Ut alia labores nam, ei tale
         libris scribentur qui, quis eius cu mel. Eam errem populo dissentiunt id, soluta meliore
 
+      </p>
+
    </div>
+ </div>
+ </div>
 
 
 
@@ -55,6 +66,16 @@
 
 
 
-
+<script type="text/javascript">
+var p = document.getElementById('paragraph');
+document.getElementById('headline').addEventListener("click", show);
+function show() {
+  if (p.style.visibility == 'visible') {
+    (p.style.visibility = 'hidden');
+  } else {
+    (p.style.visibility = 'visible');
+  }
+}
+</script>
 </body>
 </html>
